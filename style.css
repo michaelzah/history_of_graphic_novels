@@ -1,9 +1,188 @@
-nav {
-    background: #fefef9;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: #ffffe7
+}
+
+.topnav {
+    background-color: #ffffe7;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-weight: bold;
-    list-style-type: none;
-    display: inline-block;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: black;
+    color: #ffffe7;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+  }
+
+
+  .comparison {
+    border: 2px solid black;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 150%;
+    font-size: 16px;
+  }
+
+  header {
+  height: 70vh;
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 30pt;
+}
+
+header h1 {
+  background-color: #ffffe7;
+  padding: 10px;
+}
+
+.definition {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.whatwasthefirstgraphicnovel {
+  display: flex;
+}
+
+.whatwasthefirstgraphicnovel div {
+  margin-left: 50px;
+}
+
+.whatwasthefirstgraphicnovel img {
+  width: 50%;
+  height: 50%;
+  }
+  
+
+.background {
+  background-color: indianred;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.whatisagraphicnovel {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.whatisagraphicnovel div {
+  border: 2px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.whatisagraphicnovel img {
+  margin-right: 50px;
+}
+
+.twenty {
+  display: flex;
+}
+
+.twenty div {
+  border: 2px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.twenty img {
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.forty {
+  display: flex;
+}
+
+.forty img {
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.forty div {
+  border: 2px solid black;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sixty {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sixty .images {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.sixty .body {
+  border: 2px solid black;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.present-image-text {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.present-text {
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+
+footer {
+  border: 2px solid black;
+  text-align: center;
 }
